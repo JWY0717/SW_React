@@ -1,0 +1,91 @@
+
+.header {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+
+
+.main {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items:top;
+   
+}
+
+.mainbox1,.mainbox2{
+    margin-top: 50px;
+    display: flex;  
+}
+
+
+.mainbox1 {
+    width: 30vw;
+    height: 90vh;
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+  
+
+}
+
+.mainbox2 {
+    width: 50vw;
+    height: 90vh;
+    justify-content: center;
+    align-items: top;
+    
+}
+
+.dtdiv1 {
+    display: flex;
+    width: 20vw;
+    height: 10vh;
+    border: solid 1px cornflowerblue;
+    border-radius: 10px;
+    justify-content: center;             /*justify -content( 가로축 - 중심축 )*/
+    align-items: center;                 /*align-items ( 세로축 - 교차축 .*/
+                 
+    margin: 10px;
+    font-size: 14px;                                    
+                                          
+                                   
+    
+
+
+    
+}
+/*hover는 사용자가 마우스를 특정 대상에 올렸을 때
+미리 입력해둔 효과가 나타나게 해주는 기능이 있다.*/
+
+
+.dtdiv1:hover, .dtdiv1:active {
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+
+}
+
+.detail {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gold;
+    background-color: beige;
+    padding: 10px;
+}
+
+.lired {
+    color:white;
+    background-color: red;
+    
+}

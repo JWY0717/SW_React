@@ -1,0 +1,124 @@
+.tcontent {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+}
+
+.theader {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.tmain {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items:top;
+  
+}
+.tc1 ,.tc2 ,.tdetail{
+  
+    display: flex;  
+    border: 2px solid rgb(233, 216, 216);
+    justify-content: top;
+    align-items: center;
+    flex-direction: column;
+    height: 10%;
+    margin: 10px;
+    
+
+    
+    
+}
+
+.tc1 .tc2 {
+    width: 15%;
+   
+
+}
+
+
+.tcdetail {
+    width: 50%;
+    
+
+}
+.tc2d {
+    width : 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border: 3px solid rgb(105, 26, 26);
+    border-style: solid;
+    margin: 10px;
+}
+
+.tc1d,.tcardSel{
+    width : 80%;
+    height: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    border: 1px solid rgb(105, 26, 26);
+    border-style: solid;
+    margin: 10px;
+}
+
+.tc1d:hover, .tc2d:hover, .tc1d:active, .tc2d:active, .tcardSel {
+    background-color:  #b18bca;
+    color: rgb(65, 5, 122);
+    font-size: 20px;
+    font-weight: bold;
+}
+/*
+ul {
+    list-style: none;
+    display: flex;
+    width: 100%;
+}
+
+ul > li {
+    display:flex;
+    margin: 2px; 
+}
+
+.sp1, .sp11 {
+    width: 30%;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    color: white;
+    font-size: 0.8em;
+}
+
+
+
+.sp11 {
+    background-color: brown;
+}
+
+.sp2, .sp21 {
+    width: 70%;
+    display: inline-flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: chartreuse;
+    color: black;
+    font-size: 0.8em;
+
+}*/

@@ -1,0 +1,116 @@
+.content {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+
+    padding: 10px;
+}
+
+.conleft {
+    width: 35vw;
+    height: 80vh;
+    display: flex;
+    justify-content: right;
+    align-items: top;  
+    margin: 20px 10px;
+}
+
+.conleft > ul {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    list-style: none; 
+}
+
+.uli, .ulis{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gainsboro;
+    margin-bottom: 10px;
+}
+
+.uli:hover , .uli:active, .ulis   {
+    background-color:  rgb(82, 124, 95);
+    color: rgb(243, 219, 219);
+    font-weight: bold;
+    border: none;
+}    
+
+.conright {
+    width: 50vw;
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: top;  
+    margin: 10px; 
+}
+
+.concard {
+    width: 50vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 0px;
+    margin-top: 20px;
+    padding: 0px;
+    background-color:  rgb(82, 124, 95);
+    color: black;
+}
+
+.concard > div {
+    width: 80%;
+    font-size: 1.5em;
+} 
+
+.title {
+    font-weight: bold;
+    color: rgb(110, 36, 179);
+    margin-bottom: 5px;
+}
+
+.concard >.conkw {
+    font-size: 1em;
+    color: rgb(59, 67, 73);
+    margin-bottom: 5px;
+}
+.concard img {
+    width : 100%;
+    height: 300px;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+}
+
+button {
+    margin-left: 5px;
+    background-color: rgb(82, 124, 95);
+    width: 80px;
+    height: 40px;
+}
+.gallt {
+    width: 100vw;
+    display: flex;
+    flex-direction:column; 
+}
+
+.input[type=text],input[type=password],select
+{
+    width: 200px;
+    padding: 30px;
+    margin: 10px;
+    box-sizing: border-box;
+
+}

@@ -1,0 +1,103 @@
+.Wmain{
+    width: 640px;
+    
+}
+
+
+.wheader{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+    width: 640px;
+    height: 10vh;
+  
+    background-color:rgb(114, 187, 221);
+    color: white;
+    
+}
+
+.main{
+    justify-content: center;
+    align-items: top;
+    display:flex;
+
+    width: 100%;               
+    height: 100vh;
+ 
+   
+
+}
+
+
+.content{
+    width: 640px;
+    border-radius: 10px;
+    background-color: azure;
+    
+}
+
+
+
+button {
+    justify-content: top;
+    align-items: center;
+    display:flex;
+
+    width: 150px;
+    height: 8vh;
+    float: flex;
+   
+}
+
+.a , .b{
+    background-color:rgb(154, 179, 190);
+    align-items: center;
+    vertical-align: top;
+    margin-left: 260px;
+    margin-top: 150px;
+}
+
+.w2div{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+
+    width: 640px;
+    height: 50px;
+
+    border-bottom: 1px solid black;
+}
+
+.sp0, .sp1 ,.sp2{
+    
+   
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1em;
+}
+
+.sp0{
+    width: 30%;
+    justify-content:right;
+    color: gray;
+}
+
+.sp1{
+    width: 20%;
+    justify-content:center;
+    font-weight: bold;
+}
+
+.sp2{
+    width: 20%;
+    justify-content:left;
+}
+
+
+
+
+
+
